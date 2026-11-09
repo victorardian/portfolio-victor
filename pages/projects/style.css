@@ -204,8 +204,14 @@ class
 
 .projectimage {
     border-radius: 10px;
-    min-width: 20%;
-    max-width: 40%;
+    min-width: 10%;
+    max-width: 30%;
+}
+
+.projectvideo {
+    border-radius: 10px;
+    min-width: 10%;
+    max-width: 30%;
 }
 
 .alignmentbox {
