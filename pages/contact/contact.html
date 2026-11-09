@@ -56,9 +56,9 @@
                     </h1>
                     <section class="aligner">
                         <form class="sendform">
-                            <input type="text" placeholder="Naam" pattern="[A-Za-z]{2}" name="contact">
-                            <input type="email" placeholder="Email" name="contact">
-                            <input type="text" placeholder="Bericht" class="message" name="contact">
+                            <input type="text" placeholder="Naam" pattern="[A-Za-z]+" minlength="2" maxlength="40" name="contact" required>
+                            <input type="email" placeholder="Email" name="contact" required>
+                            <textarea placeholder="Bericht" class="message" name="contact" required></textarea>
                             <input type="submit" value="Stuur">
                         </form>
                     </section>

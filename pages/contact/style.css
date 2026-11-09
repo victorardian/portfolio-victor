@@ -236,6 +236,19 @@ class
 
 .message {
     height: 20dvh;
+    background-color: rgba(calc(255 / 16), calc(255 / 16), calc(255 / 16), 0.75);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(calc(255 / 2), calc(255 / 2), calc(255 / 2), 1);
+    border-radius: 5px;
+    width: 25dvw;
+    resize: none;
+}
+
+.message::placeholder {
+    color: white;
+    text-shadow: white 1px 1px 5px;
+    transform: translateY(450%);
+    text-align: center;
 }
 
 .alignmentbox {
