@@ -210,8 +210,8 @@ class
 
     th {
         font-size: clamp(1.5em, 4vw, 3em);
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 1dvw;
+        padding-right: 1dvw;
     }
 
     td {
